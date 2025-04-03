@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#f8f9fa" />
+
+    <!-- Title -->
+    <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Collaborative Notes
+        Platform with Supabase & AI</text>
+
+    <!-- User Layer -->
+    <rect x="300" y="80" width="200" height="60" rx="10" fill="#b3e0ff" stroke="#333" stroke-width="2" />
+    <text x="400" y="115" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Web/Mobile
+        Clients</text>
+
+    <!-- Backend Layer -->
+    <rect x="200" y="180" width="400" height="60" rx="10" fill="#ffcc99" stroke="#333" stroke-width="2" />
+    <text x="400" y="215" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Backend
+        Services</text>
+
+    <!-- Supabase Layer -->
+    <rect x="50" y="480" width="700" height="80" rx="10" fill="#3ecf8e" stroke="#333" stroke-width="2" opacity="0.6" />
+    <text x="400" y="510" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold"
+        fill="#333">Supabase</text>
+
+    <!-- Supabase Components -->
+    <rect x="80" y="525" width="130" height="30" rx="5" fill="#ffffff" stroke="#333" stroke-width="1.5" />
+    <text x="145" y="545" font-family="Arial" font-size="14" text-anchor="middle">PostgreSQL DB</text>
+
+    <rect x="230" y="525" width="130" height="30" rx="5" fill="#ffffff" stroke="#333" stroke-width="1.5" />
+    <text x="295" y="545" font-family="Arial" font-size="14" text-anchor="middle">Storage</text>
+
+    <rect x="380" y="525" width="130" height="30" rx="5" fill="#ffffff" stroke="#333" stroke-width="1.5" />
+    <text x="445" y="545" font-family="Arial" font-size="14" text-anchor="middle">Authentication</text>
+
+    <rect x="530" y="525" width="190" height="30" rx="5" fill="#ffffff" stroke="#333" stroke-width="1.5" />
+    <text x="625" y="545" font-family="Arial" font-size="14" text-anchor="middle">Realtime Subscriptions</text>
+
+    <!-- Core Services -->
+    <rect x="50" y="280" width="700" height="160" rx="10" fill="#d9f2d9" stroke="#333" stroke-width="2" />
+    <text x="400" y="305" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Core
+        Services</text>
+
+    <!-- Individual Services -->
+    <rect x="70" y="330" width="140" height="40" rx="5" fill="#ffffff" stroke="#333" stroke-width="1.5" />
+    <text x="140" y="355" font-family="Arial" font-size="14" text-anchor="middle">Notes Management</text>
+
+    <rect x="230" y="330" width="140" height="40" rx="5" fill="#ffffff" stroke="#333" stroke-width="1.5" />
+    <text x="300" y="355" font-family="Arial" font-size="14" text-anchor="middle">User Management</text>
+
+    <rect x="390" y="330" width="140" height="40" rx="5" fill="#ffffff" stroke="#333" stroke-width="1.5" />
+    <text x="460" y="355" font-family="Arial" font-size="14" text-anchor="middle">Sharing System</text>
+
+    <rect x="550" y="330" width="180" height="40" rx="5" fill="#ffffff" stroke="#333" stroke-width="1.5" />
+    <text x="640" y="355" font-family="Arial" font-size="14" text-anchor="middle">Plagiarism Detection</text>
+
+    <!-- AI Services -->
+    <rect x="70" y="390" width="320" height="40" rx="5" fill="#ffe6cc" stroke="#333" stroke-width="1.5" />
+    <text x="230" y="415" font-family="Arial" font-size="14" text-anchor="middle">AI Processing (Text Extraction &
+        Classification)</text>
+
+    <rect x="410" y="390" width="320" height="40" rx="5" fill="#ffe6cc" stroke="#333" stroke-width="1.5" />
+    <text x="570" y="415" font-family="Arial" font-size="14" text-anchor="middle">Semantic Search &
+        Recommendations</text>
+
+    <!-- Vector DB -->
+    <rect x="160" y="450" width="480" height="40" rx="5" fill="#d9d9f2" stroke="#333" stroke-width="1.5" />
+    <text x="400" y="475" font-family="Arial" font-size="14" text-anchor="middle">pgvector Extension (Vector Database
+        for Embeddings)</text>
+
+    <!-- Connections -->
+    <!-- Client to Backend -->
+    <line x1="400" y1="140" x2="400" y2="180" stroke="#333" stroke-width="2" />
+    <polygon points="400,180 395,170 405,170" fill="#333" />
+
+    <!-- Backend to Core -->
+    <line x1="400" y1="240" x2="400" y2="280" stroke="#333" stroke-width="2" />
+    <polygon points="400,280 395,270 405,270" fill="#333" />
+
+    <!-- Core to Vector DB -->
+    <line x1="400" y1="430" x2="400" y2="450" stroke="#333" stroke-width="1.5" />
+    <polygon points="400,450 395,440 405,440" fill="#333" />
+
+    <!-- Vector DB to Supabase -->
+    <line x1="400" y1="490" x2="400" y2="510" stroke="#333" stroke-width="1.5" />
+    <polygon points="400,510 395,500 405,500" fill="#333" />
+</svg>
