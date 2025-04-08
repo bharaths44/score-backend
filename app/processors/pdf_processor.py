@@ -53,7 +53,7 @@ def preprocess_text(text: str, options: dict = None) -> str:
     default_options = {
         "remove_stopwords": True,
         "lemmatize": True,
-        "remove_entities": False,
+        "remove_entities": True,
         "entity_types": ["PERSON", "GPE", "LOC", "ORG"],
         "min_word_length": 2,
     }
